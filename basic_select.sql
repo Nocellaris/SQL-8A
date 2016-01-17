@@ -1,0 +1,58 @@
+1.
+
+SELECT DISTINCT FROM EMPLOYEES table
+     ORDER BY DEPARTMENT ID;
+
+2.
+
+SELECT * FROM EMPLOYEES
+     ORDER BY FIRST_NAME DESC;
+
+3.
+
+SELECT SUM(DISTINCT salary) AS "Total Salary"
+FROM employees
+
+5.
+
+SELECT AVG(salary)
+FROM employees table
+
+
+6. 
+
+SELECT COUNT(*) FROM employees table
+
+7.
+
+SELECT COUNT(*) FROM employees table
+WHERE 
+
+8.
+
+SELECT UCASE(Name) AS FIRST_NAME
+FROM Employees
+
+9.
+
+SELECT SUBSTR(FIRST_NAME, 1, 3)
+FROM Employees
+
+10.
+
+SELECT CONCAT(FIRST_NAME, LAST_NAME)
+    FROM employees
+
+11.
+
+SELECT TRIM(FIRST_NAME) 
+	FROM employees
+
+12.
+
+SELECT FIRST_NAME,LAST_NAME ,LEN(FIRST_NAME) LEN(LAST_NAME) as LengthOfName
+FROM Employees
+
+13.
+
+SELECT * FROM `employees` LIMIT 0, 10
